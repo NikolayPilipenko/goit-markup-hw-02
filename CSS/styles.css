@@ -1,0 +1,270 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.logo {
+  text-transform: uppercase;
+}
+
+:root {
+  --subsid-color: #4d5ae5;
+  --logo-font: "Raleway", sans-serif;
+  --dark-bgr: #2e2f42;
+  --paragrapf-color: #434455;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.page-header {
+  background-color: color #e7e9fc;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--subsid-color);
+}
+
+.contact-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--subsid-color);
+}
+
+.contact-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--subsid-color);
+}
+
+.order-btn {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: var(--subsid-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background: var(--subsid-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
+}
+
+.designation {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: var(--dark-bgr);
+  width: 1440px;
+  height: 600px;
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.title-str {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.defin-str {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--paragrapf-color);
+}
+
+.title-punct {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.defin-punct {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--paragrapf-color);
+}
+
+.title-dilig {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.defin-dilig {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--paragrapf-color);
+}
+
+.title-tech {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.defin-tech {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--paragrapf-color);
+}
+
+.ourwork-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.employ {
+  background-color: #f4f4fd;
+}
+
+.employ-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.empl-mark {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.empl-mark-prof {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(#434455);
+}
+
+.empl-tom {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.empl-tom-prof {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(#434455);
+}
+
+.empl-gamila {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.empl-gam-prof {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(#434455);
+}
+
+.empl-daniel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.empl-dan-prof {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(#434455);
+}
+
+.logo-web {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--subsid-color);
+  letter-spacing: 0.03em;
+}
+
+.logo-studio {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #f4f4fd;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-hed {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.vault {
+  width: 1440px;
+  height: 312px;
+  background: var(--dark-bgr);
+}
+
+.vault-txt {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/*Portfolio*/
