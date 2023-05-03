@@ -22,7 +22,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: #2e2f42;
+
+  color: #434455;
 }
 
 .page-header {
@@ -97,6 +98,33 @@ body {
   width: 1440px;
   height: 600px;
 }
+
+.designation-title {
+ /* width: 496px;
+  height: 120px;*/
+}
+position: absolute;
+width: 496px;
+height: 120px;
+left: 472px;
+top: 260px;
+
+/* Header 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* WHITE */
+
+color: #FFFFFF;
+
 
 .advantage-title {
   font-weight: 700;
