@@ -13,7 +13,7 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: var(--subsid-color);
 }
 
@@ -53,11 +53,14 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--subsid-color);
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contact-mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -65,11 +68,10 @@ body {
 }
 .contact-mail:hover,
 .contact-mail:focus {
-  color: var(--subsid-color);
+  color: #404bbf;
 }
 
 .contact-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -77,15 +79,17 @@ body {
 }
 .contact-tel:hover,
 .contact-tel:focus {
-  color: var(--subsid-color);
+  color: #404bbf;
 }
 
 .order-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -97,7 +101,7 @@ body {
 
 .order-btn:hover,
 .order-btn:focus {
-  background: var(--subsid-color);
+  background-color: #404bbf;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 4px;
