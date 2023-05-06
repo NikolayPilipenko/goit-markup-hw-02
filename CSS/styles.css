@@ -9,14 +9,28 @@ button {
 }
 .logo {
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  color: var(--subsid-color);
 }
 
+.logo-ligh {
+  color: var(--ancillary-color);
+}
+
+.logo-dark {
+  color: var(--log-stud-col);
+}
 :root {
   --subsid-color: #4d5ae5;
   --logo-font: "Raleway", sans-serif;
   --dark-bgr: #2e2f42;
   --ancillary-color: #2e2f42;
   --backgr-color: #ffffff;
+  --log-stud-col: #f4f4fd;
 }
 
 body {
@@ -242,32 +256,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
-}
-
-.logo-web {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--subsid-color);
-  letter-spacing: 0.03em;
-}
-
-.logo-studio {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: #f4f4fd;
-  letter-spacing: 0.03em;
-}
-
-.logo-studio-hed {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .vault {
