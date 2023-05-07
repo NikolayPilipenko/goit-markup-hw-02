@@ -31,6 +31,7 @@ button {
   --ancillary-color: #2e2f42;
   --backgr-color: #ffffff;
   --log-stud-col: #f4f4fd;
+  --paragraph-color: #434455;
 }
 
 body {
@@ -148,6 +149,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  line-height: 1.5;
 }
 
 .title-punct {
@@ -161,6 +164,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  line-height: 1.5;
 }
 
 .title-dilig {
@@ -174,6 +179,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  line-height: 1.5;
 }
 
 .title-tech {
@@ -187,12 +194,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  line-height: 1.5;
 }
 
 .ourwork-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--ancillary-color);
 }
 
@@ -204,59 +215,24 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
 
-.empl-mark {
+.employ-list {
+  background-color: #ffffff;
+}
+
+.empl {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
-.empl-mark-prof {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.empl-tom {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--ancillary-color);
-}
-
-.empl-tom-prof {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.empl-gamila {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--ancillary-color);
-}
-
-.empl-gam-prof {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.empl-daniel {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--ancillary-color);
-}
-
-.empl-dan-prof {
+.empl-prof {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -276,3 +252,23 @@ body {
 }
 
 /*Portfolio*/
+
+.guide-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--subsid-color);
+  background-color: var(--log-stud-col);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.guide-btn:hover,
+.guide-btn:focus {
+  color: var(--backgr-color);
+  background-color: #404bbf;
+}
