@@ -61,25 +61,14 @@ body {
   font-style: normal;
 }
 
-.contact-mail {
+.contact-mt {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
-}
-
-.contact-tel {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.contact-tel:hover,
-.contact-tel:focus {
+.contact-mt:hover,
+.contact-mt:focus {
   color: #404bbf;
 }
 
