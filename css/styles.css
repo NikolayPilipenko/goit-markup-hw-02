@@ -127,14 +127,14 @@ body {
   color: var(--ancillary-color);
 }
 
-.title-str {
+.title-adv {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
-.defin-str {
+.defin-adv {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -142,14 +142,14 @@ body {
   line-height: 1.5;
 }
 
-.title-punct {
+.title-adv {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
-.defin-punct {
+.defin-adv {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -157,14 +157,14 @@ body {
   line-height: 1.5;
 }
 
-.title-dilig {
+.title-adv {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
-.defin-dilig {
+.defin-adv {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -172,14 +172,14 @@ body {
   line-height: 1.5;
 }
 
-.title-tech {
+.title-adv {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
 }
-.defin-tech {
+.defin-adv {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -214,6 +214,10 @@ body {
   background-color: #ffffff;
 }
 
+.employ-item { 
+  background-color: #FFFFFF
+}
+
 .empl {
   font-weight: 500;
   font-size: 20px;
@@ -243,7 +247,7 @@ body {
 /*Portfolio*/
 
 .guide-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
