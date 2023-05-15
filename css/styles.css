@@ -214,8 +214,8 @@ body {
   background-color: #ffffff;
 }
 
-.employ-item { 
-  background-color: #FFFFFF
+.employ-item {
+  background-color: #ffffff;
 }
 
 .empl {
@@ -264,4 +264,17 @@ body {
 .guide-btn:focus {
   color: var(--backgr-color);
   background-color: #404bbf;
+}
+
+.specification {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+
+.specification-p {
+  letter-spacing: 0.02em;
+  color: var(--paragraph-color);
 }
