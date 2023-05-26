@@ -78,25 +78,18 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: var(--backgr-color);
   flex: none;
-  order: 0;
-  flex-grow: 0;
+
   background: var(--subsid-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .order-btn:hover,
 .order-btn:focus {
   background-color: var(--backgr-btn);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 4px;
 }
 
 .designation {
@@ -110,8 +103,6 @@ body {
 }
 
 .designation-title {
-  width: 496px;
-  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -233,8 +224,6 @@ body {
 }
 
 .vault {
-  width: 1440px;
-  height: 312px;
   background: var(--dark-bgr);
 }
 
@@ -256,8 +245,7 @@ body {
   line-height: 1.5;
   color: var(--subsid-color);
   background-color: var(--log-stud-col);
-  display: flex;
-  align-items: center;
+
   text-align: center;
   letter-spacing: 0.04em;
 }
